@@ -1,0 +1,26 @@
+{
+  "name": "cg-auto-backend",
+  "version": "1.0.0",
+  "description": "REST API based backend for cg-auto-assignmentificator app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "expressjs",
+    "rest-api"
+  ],
+  "author": "Raihanul Islam Refat",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "qs": "^6.9.1",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
